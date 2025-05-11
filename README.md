@@ -1,4 +1,4 @@
-# Baseball_project2
+# Baseball pitch type prediction
 
 ### Dataset
 
