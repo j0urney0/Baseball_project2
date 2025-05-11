@@ -8,7 +8,6 @@
 
 dataset kaggle link: https://www.kaggle.com/datasets/pschale/mlb-pitch-data-20152018/data
 
----
 ### Settings
 
 requirements.txt에는 tensorflow가 주석처리 되어있습니다.
