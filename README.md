@@ -1,17 +1,42 @@
-# Baseball pitch type prediction
+# [2025-1] Baseball pitch type prediction
 
-### Dataset
+## I. Project title
 
-사용한 데이터셋은 kaggle에서 다운로드 받을 수 있습니다.
+### ⚾️Baseball Pitch Type Prediction
+---
+## II. Project introduction
 
-(data 폴더에 넣어서 사용.)
+### 📌Objective
 
-dataset kaggle link: https://www.kaggle.com/datasets/pschale/mlb-pitch-data-20152018/data
+### 💡Motivation
 
-### Settings
+---
+## III. Dataset description
+*Raw Data: MLB Pitch Data 2015-2018*\
+*Source: https://www.kaggle.com/datasets/pschale/mlb-pitch-data-20152018/data*
+(Put it in the data folder to use.)
 
-requirements.txt에는 tensorflow가 주석처리 되어있습니다.
+### 📂Feature description
+- CH - Changeup
+- CU - Curveball
+- EP - Eephus*
+- FC - Cutter
+- FF - Four-seam Fastball
+- FO - Pitchout (also PO)*
+- FS - Splitter
+- FT - Two-seam Fastball
+- IN - Intentional ball
+- KC - Knuckle curve
+- KN - Knuckeball
+- PO - Pitchout (also FO)
+- SC - Screwball
+- SI - Sinker
+- SL - Slider
+- UN - Unknown
 
-mac 환경에서는 arm에 맞는 tensorflow를 사용하시고, windows에서는 주석 해제하고 requirements.txt 다운로드 해주세요.
+### ⚙️Settings
 
-*실험은 conda 가상환경에서 진행되었습니다.
+TensorFlow is annotated in requirements.txt.
+In a mac environment, use TensorFlow compatible with ARM, and in Windows, uncomment and download requirements.txt.
+
+*The experiment was performed in a conda virtual environment.
